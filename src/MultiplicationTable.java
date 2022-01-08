@@ -10,17 +10,6 @@ class Multiply{
 	
 }
 
-class ArithmaticOperation{
-	
-	void ArithmaticOperation(String operation){
-		String operation1;
-		switch (operation1) {
-		case 1:
-			
-		default :
-	}
-	}
-}
 
 public class MultiplicationTable {
 	public static void main(String[] args) {
