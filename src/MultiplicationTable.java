@@ -10,14 +10,25 @@ class Multiply{
 	
 }
 
+class ArithmaticOperation{
+	
+	void ArithmaticOperation(String operation){
+		String operation1;
+		switch (operation1) {
+		case 1:
+			
+		default :
+	}
+	}
+}
+
 public class MultiplicationTable {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the number for which you need to check multiplication");
 		int s=sc.nextInt();
 		Multiply m=new Multiply();
-		m.MultiplicationTable(s);
-		
+		m.MultiplicationTable(s);	
 		
 	}
 }
