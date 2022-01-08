@@ -6,7 +6,12 @@ public class ReverseStr {
 		char[] ch=str.toCharArray();
 		int len=ch.length;
 		for(int i=len-1;i>=0;i--){
-			System.out.println(ch[i]);
+			System.out.print(ch[i]);
+		}
+		System.out.println("");
+		for(int i=str.length()-1;i>=0;i--){
+			System.out.print(str.charAt(i));
+			
 		}
 	}
 }
